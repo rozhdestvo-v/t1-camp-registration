@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Nunito,sans-serif;
+  transition: all .5s ease;
+}
+
+.header {
+  display: flexbox;
+}
+.title {
+  display: inline-flex;
+}
+
+h1 { 
+  font-family: Nunito, sans-serif;
+  color: #0035a09f;
+  text-align: center;
+}
+
+.img {
+  width: auto;
+  height: 80px;
+  margin: 0px 20px;
+}
+
+.startBtn {
+  background-color: #0035a09f;
+  padding: 5px 30px 30px;
+  border-radius: 10px;
+  transition: all .3s ease;
+  margin: 20px;
+}
+
+.author {
+  display: block;
+  font-family: Nunito, sans-serif;
+  color: #0035a09f;
+  font-size: 12px;
+  text-align: center;
+}
