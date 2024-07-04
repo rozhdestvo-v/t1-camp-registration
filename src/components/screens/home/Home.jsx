@@ -18,6 +18,8 @@ function Home() {
     setShowRegistration(false)
   }
 
+  
+
   const handleShowChangeStatus = (e) => {
     e.preventDefault();
     setShowChangeStatus(true);
